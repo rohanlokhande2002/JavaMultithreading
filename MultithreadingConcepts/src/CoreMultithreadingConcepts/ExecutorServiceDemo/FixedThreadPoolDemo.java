@@ -3,6 +3,10 @@ package CoreMultithreadingConcepts.ExecutorServiceDemo;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+// Here we are using the fixed thread pool. In this case we are going to have
+// limited or fixed thread which are going to perform the task but unlike singleThreadeExecutor
+// it won't perform the taks sequentially.
+
 public class FixedThreadPoolDemo {
     public static void main(String[] args) {
         try(ExecutorService service = Executors.newFixedThreadPool(3)){
