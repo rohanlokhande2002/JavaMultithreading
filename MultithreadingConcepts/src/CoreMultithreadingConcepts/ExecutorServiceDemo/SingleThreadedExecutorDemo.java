@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 // we don't need to start the thrad and manage
 // Here we have created the SingleThradedExecutor where only single thread will run
 // and complete the task in the sequential order. But here if the thead is dead or stopped then
-// it executor will create the new thread automatically
+// executor will create the new thread automatically
 
 public class SingleThreadedExecutorDemo {
     public static void main(String[] args) {
