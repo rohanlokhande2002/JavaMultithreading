@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 // limited or fixed thread which are going to perform the task but unlike singleThreadeExecutor
 // it won't perform the taks sequentially.
 
-public class FixedThreadPoolDemo {
+public class  FixedThreadPoolDemo {
     public static void main(String[] args) {
         try(ExecutorService service = Executors.newFixedThreadPool(3)){
             for(int i = 0; i < 5; i++){
